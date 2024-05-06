@@ -46,10 +46,14 @@ nav img {
     width: 148px;
     position: relative;
     z-index: 10;
+    font-size: 14px;
     height: 40px;
 }
 
 nav button {
+    background-color: grey;
+    padding:  20px;
+    font-size: 16px;
     position: relative;
     z-index: 10;
 }
@@ -168,36 +172,28 @@ section.first>div {
     flex-direction: column;
 
 }
-
 .first>div :first-child {
     font-size: 48px;
     font-weight: 900;
     padding: 0px 6px 0px 0px;
     margin-bottom: 20px;
-
 }
-
 .first>div :nth-child(2) {
     font-size: 24px;
     font-weight: 400;
 }
-
 .first>div :nth-child(3) {
     font-size: 24px;
     font-weight: 400;
 }
-
  .third video {
     position: absolute;
     top:2px
-
 }
-
 .faq h2 {
     text-align: center;
     font-size: 48px;
 }
-
 .faq {
     background-color: black;
     color: white;
@@ -219,5 +215,33 @@ section.first>div {
     margin: 15px auto;
     /* position:  relative; */
     align-items: center;
+}
+footer{
+    height: 25vw;
+    font-size: 16px;
+}
+.que{
+    width: 30vw;
+    height: 21px;
+    color: white;
+    margin: 20px 235px;
+}
+ a{
+   color: white;
+}
+.tags {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 
+}
+
+.column {
+    margin: 20px 100px; /* Adjust spacing between columns as needed */
+}
+
+.column a {
+    display: block;
+    color: white;
+    margin-bottom: 20px; /* Adjust spacing between links within a column as needed */
 }
